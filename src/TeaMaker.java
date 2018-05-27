@@ -1,11 +1,15 @@
 /*
- *    Copyright (c) The League of Amazing Programmers 2013-2017
- *    Level 1
+    Copyright (c) The League of Amazing Programmers 2013-2017
+    Level 1
  */
 
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea using the classes below */
+	TeaBag bag = new TeaBag("Green");
+	Kettle pot = new Kettle();
+	Kettle.Water water = pot.new Water();
+	// help
 
 }
 
@@ -64,5 +68,3 @@ class Cup {
 	}
 
 }
-
-
