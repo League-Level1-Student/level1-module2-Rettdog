@@ -3,26 +3,35 @@
  *    Level 1
  */
 
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
 /**
- * To make these tests pass, you will need to create a Minion class with the member variables below.
+ * To make these tests pass, you will need to create a Minion class with the
+ * member variables below.
  * 
  * <code>
+ * class Minion(){
+ * 
  * 			private String name; 
  * 			private int eyes; 
  * 			private String color; 
  * 			private String master;
+ * }
  * </code>
  * 
- * Create a constructor, and getters and setters for the member variables. If they’re done right, these tests will pass.
+ * Create a constructor, and getters and setters for the member variables. If
+ * they’re done right, these tests will pass.
  * 
- * **/
+ **/
 
 public class MinionTest {
+	public static void main(String[] args) {
+		MinionTest mini = new MinionTest();
+		mini.testConstructor();
+		mini.testSetters();
+	}
 
 	@Test
 	public void testConstructor() {
@@ -49,6 +58,3 @@ public class MinionTest {
 	}
 
 }
-
-
-

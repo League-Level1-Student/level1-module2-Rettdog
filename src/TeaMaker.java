@@ -6,10 +6,15 @@
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea using the classes below */
-	TeaBag bag = new TeaBag("Green");
-	Kettle pot = new Kettle();
-	Kettle.Water water = pot.new Water();
-	// help
+	public static void main(String[] args) {
+
+		TeaBag bag = new TeaBag("Green");
+		Kettle pot = new Kettle();
+		Kettle.Water water = pot.getWater();
+		pot.boil();
+		Cup cup = new Cup();
+		cup.makeTea(bag, water);
+	}
 
 }
 
