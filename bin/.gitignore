@@ -4,6 +4,7 @@
 /Kettle$Water.class
 /Kettle.class
 /Microwave.class
+/Minion.class
 /MinionTest.class
 /Platypus.class
 /PlatypusRunner.class
@@ -11,9 +12,9 @@
 /Recipes.html
 /TeaBag.class
 /TeaMaker.class
+/TeaParty$TeaPartyTest.class
 /TeaParty.class
 /Vault.class
 /extra/
-/MinionTestRunner.class
-/Minion.class
-/TeaParty$TeaPartyTest.class
+/TeaPartyTest$TeaParty.class
+/TeaPartyTest.class
